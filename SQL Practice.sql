@@ -1,3 +1,4 @@
+"""
 Q1:
 Table: Employee
 +-------------+---------+
@@ -27,8 +28,9 @@ Each row of this table contains the id of an employee and their respective bonus
 Write an SQL query to report the name and bonus amount of each employee with a bonus less than 1000.
 Return the result table in any order.
 The query result format is in the following example.
+"""
+###ANSWER:
 
-ANSWER:
 SELECT Employee.name, Bonus.bonus 
 FROM Employee
 JOIN Bonus ON Employee.empId = Bonus.empId
